@@ -1,8 +1,25 @@
+/**,
+*::before
+*::after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}*/
+
+/*.contain {
+  max-width: inherit;
+}*/
+
 .header img {
   width: 60px;
   height: 50px;
   float: right;
   border-right: solid white;
+  margin-bottom: -10px;
+  padding-right:20px;
+  padding-left: -10px;
+  margin-right: 40px
+
 }
 .inside1 img {
   width: 40px;
@@ -11,27 +28,37 @@
 
 body {
   background-color: #EDEFF0;
+  font-family: sans-serif;
 }
 
 .header {
   border-bottom: solid white;
+  padding: 30px;
+  padding-bottom: -20px;
 
 }
 
 .header h1 {
+  font-size: 30px;
   float: left;
+  color:  #4B5658;
+  padding-left: 90px;
+  margin-bottom: -10px;
+  padding-top: -20px;
 }
 
 .box1 {
-  border: 1px dotted  #EDEFF0;
+  border: 2px #EDEFF0;
   overflow:hidden;
   box-shadow: 1px 1px 1px #bcc3c4;
   border-radius: 5px;
   width: 550px;
   height: auto;
   position:relative;
-  top: 100px;
+  top: 10px;
   left: 100px;
+  float: left;
+  margin: 15px;
 }
 
 .cf:after {
@@ -82,19 +109,72 @@ h2 {
 }
 .bottom1 {
 padding-bottom: 9px;
+padding-top: 15px;
 }
 
 .bottom1 img {
+  width: 40px;
+  height: 40px;
   float: right;
   margin-top: -6px;
   padding: 5px;
+  /*padding-top: 10px;*/
 }
 button {
-  border-radius: 20%;
+  font-size: 12px;
+  width: auto;
+  height: 40px;
+  border-radius: 10px;
   background-color: white;
-  border: solid .5px #7B8B8E;
+  border: solid 2px #EDEFF0;
+  font-weight: bold;
+  color: #7B8B8E;
+  padding: 5px;
 }
 
 #b1 {
   color: #2C9676;
+
+}
+
+/*starting box 2 css */
+
+.head2 {
+    background-color: #F092B0;
+    margin-bottom: -15px;
+    padding-bottom: 10px;
+  }
+
+  .head2 h4 {
+    float:right;
+    padding-right: 30px;
+    color: white;
+  }
+  .head2 img {
+    float:left;
+    padding-left: 15px;
+}
+#b2 {
+    color: #F092B0;
+}
+
+/*starting box 3 css */
+
+.head3 {
+    background-color: #838CC7;
+    margin-bottom: -15px;
+    padding-bottom: 10px;
+  }
+
+  .head3 h4 {
+    float:right;
+    padding-right: 30px;
+    color: white;
+  }
+  .head3 img {
+    float:left;
+    padding-left: 15px;
+}
+#b3 {
+    color: #838CC7;
 }
